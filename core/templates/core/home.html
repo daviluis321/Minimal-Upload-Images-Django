@@ -1,0 +1,7 @@
+<h1>Deu Certo</h1>
+<ul>
+  {% for post in object_list %}
+    <h2>{{ post.title }}</h2>
+    <img src="{{ post.image.url}}" alt="{{ post.title }}">
+  {% endfor %}
+</ul>
