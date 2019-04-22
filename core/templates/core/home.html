@@ -1,7 +1,11 @@
+{% load thumbnail %}
+
 <h1>Deu Certo</h1>
 <ul>
   {% for post in object_list %}
     <h2>{{ post.title }}</h2>
-    <img src="{{ post.image.url}}" alt="{{ post.title }}">
+    {% thumbnail  post.image "100x100" crop="center" as image %}
+        <img src="{{ image.url }}" width="{{ image.width }}" height="{{ image.height }}">
+    {% endthumbnail %}
   {% endfor %}
 </ul>
