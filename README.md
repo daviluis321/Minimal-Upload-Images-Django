@@ -1,6 +1,6 @@
-# Mininal-Upload-Django
+# Minimal-Upload-Django
 
-Mininal Example Upload Images
+Minimal Example Upload Images
 
 Functionalities:
 
