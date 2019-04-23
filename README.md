@@ -6,4 +6,4 @@ Functionalities:
 
 1- Upload Image Django Admin \
 2- Upload Image Page \
-3- Resize Image \
+3- Resize Image 
